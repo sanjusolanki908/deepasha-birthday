@@ -37,3 +37,12 @@ function showSurprise() {
         });
     }
 }
+function openLetter(){
+document.getElementById("letterOverlay").style.display="block";
+document.body.style.overflow="hidden";
+}
+
+function closeLetter(){
+document.getElementById("letterOverlay").style.display="none";
+document.body.style.overflow="auto";
+}
