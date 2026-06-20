@@ -33,7 +33,9 @@ border-radius:25px;
 width:100%;
 max-width:500px;
 text-align:center;
-box-shadow:0 15px 40px rgba(255,105,180,.15);
+box-shadow:
+0 10px 30px rgba(255,105,180,.15),
+0 0 20px rgba(255,215,0,.15);
 }
 
 .password-card h1{
@@ -110,6 +112,9 @@ text-align:center;
 .hero-right img{
 width:100%;
 max-width:500px;
+height:650px;
+object-fit:cover;
+object-position:center top;
 border-radius:30px;
 box-shadow:0 20px 50px rgba(0,0,0,.12);
 }
