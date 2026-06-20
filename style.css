@@ -292,3 +292,69 @@ transform:translateY(-110vh);
 opacity:0;
 }
 }
+#letterOverlay{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(180deg,#fff5f8,#ffeef5);
+z-index:9999;
+overflow-y:auto;
+padding:40px 20px;
+}
+
+.finalLetter{
+max-width:900px;
+margin:auto;
+background:white;
+padding:60px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+line-height:2;
+color:#5a3a4a;
+}
+
+.finalLetter h2{
+text-align:center;
+margin-bottom:40px;
+color:#d14d7b;
+font-size:2.5rem;
+font-family:'Great Vibes', cursive;
+}
+
+.closeBtn{
+float:right;
+font-size:40px;
+cursor:pointer;
+color:#d14d7b;
+font-weight:bold;
+}
+
+.finalLetter p{
+font-size:1.1rem;
+line-height:2.2;
+}
+
+.finalLetter b{
+font-size:1.3rem;
+color:#d14d7b;
+}
+
+@media(max-width:768px){
+
+.finalLetter{
+padding:30px;
+}
+
+.finalLetter h2{
+font-size:2rem;
+}
+
+.finalLetter p{
+font-size:1rem;
+line-height:2;
+}
+
+}
