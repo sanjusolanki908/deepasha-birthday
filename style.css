@@ -201,15 +201,6 @@ border-radius:30px;
 cursor:pointer;
 }
 
-#hidden-message{
-display:none;
-margin-top:40px;
-font-size:1.6rem;
-font-style:italic;
-color:#c73d72;
-line-height:2;
-}
-
 @media(max-width:768px){
 
 .hero{
@@ -272,7 +263,7 @@ opacity:0;
 }
 }
 #letterOverlay{
-display:none !important;
+display:none;
 position:fixed;
 top:0;
 left:0;
