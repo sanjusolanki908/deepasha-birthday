@@ -5,7 +5,7 @@ box-sizing:border-box;
 }
 
 body{
-font-family:'Georgia', serif;
+font-family:'Poppins', sans-serif;
 background:linear-gradient(180deg,#fff8fb,#ffeef5);
 color:#5a3a4a;
 overflow-x:hidden;
@@ -84,6 +84,7 @@ color:#7a4455;
 }
 
 .hero-left h1{
+font-family:'Great Vibes', cursive;
 font-size:5rem;
 color:#d14d7b;
 margin:15px 0;
