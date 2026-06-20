@@ -180,28 +180,7 @@ box-shadow:0 10px 30px rgba(255,105,180,.15);
 line-height:2;
 }
 
-.song-section{
-padding:40px 8%;
-}
 
-.song-card{
-background:white;
-padding:25px;
-border-radius:25px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-box-shadow:0 10px 30px rgba(255,105,180,.15);
-}
-
-.song-card button{
-background:#ff5d8f;
-border:none;
-color:white;
-padding:12px 25px;
-border-radius:30px;
-cursor:pointer;
-}
 
 .surprise-section{
 padding:80px 8%;
