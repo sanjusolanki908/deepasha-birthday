@@ -328,3 +328,71 @@ line-height:2;
 }
 
 }
+.reasons-section{
+padding:80px 8%;
+text-align:center;
+}
+
+.reasons-section h2{
+font-size:2.5rem;
+margin-bottom:40px;
+color:#d14d7b;
+}
+
+.flashcard{
+max-width:800px;
+margin:auto;
+background:white;
+padding:50px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(255,105,180,.15);
+}
+
+.flashcard h3{
+color:#d14d7b;
+margin-bottom:25px;
+font-size:1.8rem;
+}
+
+.flashcard p{
+font-size:1.3rem;
+line-height:1.8;
+min-height:140px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.flash-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+}
+
+.flash-buttons button{
+background:#ff5d8f;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+
+.flashcard{
+padding:30px;
+}
+
+.flashcard p{
+font-size:1.1rem;
+min-height:180px;
+}
+
+.flash-buttons{
+flex-direction:column;
+}
+
+}
